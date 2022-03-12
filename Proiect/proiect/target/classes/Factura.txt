@@ -1,0 +1,6 @@
+Factura: 
+Nume titular card: Petrea Alexandru
+Zborul: Aeroport de plecare: Aeroportul Internațional „Henri Coandă” Bucuresti---> Aeroport sosire: Aeroportul din Londra Luton
+Firma:Compania Aeriana ---->  ROMANIA AIRWAYS
+Pret zbor: 400Lei
+Va multumim ca ati ales Compania noastra!

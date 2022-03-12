@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="petrea.alexandru.vladut.proiect.LoginInterfata">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="15" column-count="22" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="1" left="1" bottom="1" right="1"/>
+    <constraints>
+      <xy x="20" y="20" width="1744" height="1034"/>
+    </constraints>
+    <properties>
+      <background color="-9162822"/>
+      <font name="Goudy Stout" size="18" style="1"/>
+    </properties>
+    <border type="none" title-justification="2" title-position="3"/>
+    <children>
+      <grid id="6ff2d" binding="panel1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="22" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="0" height="0"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4514517"/>
+        </properties>
+        <border type="etched" title="Romania Airways" title-justification="2" title-position="3">
+          <font name="Goudy Stout" size="10" style="2"/>
+          <title-color color="-4540747"/>
+        </border>
+        <children/>
+      </grid>
+      <vspacer id="42952">
+        <constraints>
+          <grid row="7" column="20" row-span="8" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="db0b8">
+        <constraints>
+          <grid row="6" column="17" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="bc2c0">
+        <constraints>
+          <grid row="6" column="18" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="6c351">
+        <constraints>
+          <grid row="6" column="16" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d029b">
+        <constraints>
+          <grid row="1" column="20" row-span="6" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="eccc4">
+        <constraints>
+          <grid row="7" column="19" row-span="8" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="4c14a" class="javax.swing.JTextArea" binding="IDUTILIZATORTextArea" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="6" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9162822"/>
+          <font name="Eras Bold ITC" size="24" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="                          ID UTILIZATOR:"/>
+        </properties>
+      </component>
+      <vspacer id="1e4c6">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e953a">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d5919">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="5aea1">
+        <constraints>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="4e8ff">
+        <constraints>
+          <grid row="9" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="68b43">
+        <constraints>
+          <grid row="11" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a9772">
+        <constraints>
+          <grid row="12" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="89a56">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="93876">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="70eb4">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="7e389">
+        <constraints>
+          <grid row="14" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="1da" class="javax.swing.JButton" binding="loginButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4514517"/>
+          <font name="Goudy Stout" size="18" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="Login"/>
+        </properties>
+      </component>
+      <component id="7abce" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a90cc" class="javax.swing.JTextArea" binding="parolaTextArea" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9162822"/>
+          <font name="Eras Bold ITC" size="24" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="                              Parola:"/>
+        </properties>
+      </component>
+      <component id="211c4" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="3" vsize-policy="7" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4540747"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="31108" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="login_icon.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b8346" class="javax.swing.JTextField" binding="numeutilizatorlogin">
+        <constraints>
+          <grid row="1" column="3" row-span="2" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4540747"/>
+          <font name="Goudy Stout" size="12" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="98710" class="javax.swing.JButton" binding="button1">
+        <constraints>
+          <grid row="12" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13971201"/>
+          <font name="Goudy Stout" size="18" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="CANCEL"/>
+        </properties>
+      </component>
+      <component id="4aa05" class="javax.swing.JLabel" binding="Mesage">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

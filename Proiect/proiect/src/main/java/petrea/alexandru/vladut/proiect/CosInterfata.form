@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="petrea.alexandru.vladut.proiect.CosInterfata">
+  <grid id="27dc6" binding="panel8" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="4" width="1272" height="696"/>
+    </constraints>
+    <properties>
+      <background color="-9162822"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="a1308">
+        <constraints>
+          <grid row="2" column="5" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="527a3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6946822"/>
+          <font name="Goudy Stout" size="24" style="1"/>
+          <foreground color="-4540747"/>
+          <icon value="COS_ICON.png"/>
+          <text value="                     ROMANIA AIRWAYS"/>
+        </properties>
+      </component>
+      <component id="502e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="Bagaje:"/>
+        </properties>
+      </component>
+      <component id="de4f5" class="javax.swing.JRadioButton" binding="bagaj1">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="BAGAJ CALA: 23 KG"/>
+        </properties>
+      </component>
+      <component id="54747" class="javax.swing.JRadioButton" binding="bagaj2">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="BAGAJ CALA: 10 KG"/>
+        </properties>
+      </component>
+      <component id="e6777" class="javax.swing.JRadioButton" binding="bagaj3">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6946822"/>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <text value="ROMAIR PRIORITY"/>
+        </properties>
+      </component>
+      <component id="7408c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="ZBOR :"/>
+        </properties>
+      </component>
+      <component id="e0610" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="PRET ZBOR:"/>
+        </properties>
+      </component>
+      <component id="9e89c" class="javax.swing.JLabel" binding="PRETTOTAL">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-4540747"/>
+          <text value="LEI"/>
+        </properties>
+      </component>
+      <component id="6e31f" class="javax.swing.JButton" binding="PLATESTEButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3921"/>
+          <font name="Goudy Stout" size="12" style="1"/>
+          <foreground color="-9162822"/>
+          <text value="PLATESTE"/>
+        </properties>
+      </component>
+      <component id="bd5e6" class="javax.swing.JLabel" binding="total">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="24"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="d296b" class="javax.swing.JLabel" binding="zborr">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

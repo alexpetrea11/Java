@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="petrea.alexandru.vladut.proiect.ZboruriInterfata">
+  <grid id="27dc6" binding="panel7" layout-manager="GridLayoutManager" row-count="6" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="7" y="2" width="1377" height="686"/>
+    </constraints>
+    <properties>
+      <background color="-9162822"/>
+      <font name="Goudy Stout" size="12" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d4287" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Goudy Stout" size="24" style="1"/>
+          <foreground color="-4540747"/>
+          <icon value="tickets_airline_icon.png"/>
+          <text value="                        ROMANIA AIRWAYS"/>
+        </properties>
+      </component>
+      <component id="bab5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-65553"/>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <foreground color="-65553"/>
+          <text value="Zborul 1."/>
+        </properties>
+      </component>
+      <component id="85ae5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <text value="Zborul 3."/>
+        </properties>
+      </component>
+      <component id="3f3ea" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-65553"/>
+          <font name="Goudy Stout" size="14" style="1"/>
+          <text value="Zborul 2."/>
+        </properties>
+      </component>
+      <component id="d1557" class="javax.swing.JTextField" binding="Zbor1textField1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9477a" class="javax.swing.JTextField" binding="Zbor2textField2">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b0f6e" class="javax.swing.JTextField" binding="Zbor3textField3">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="82517" class="javax.swing.JButton" binding="ADAUGAZBORINCOSButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3921"/>
+          <foreground color="-9162822"/>
+          <text value=" ADAUGA   ZBOR IN COS "/>
+        </properties>
+      </component>
+      <component id="d64cc" class="javax.swing.JLabel" binding="zborslct">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <foreground color="-4514517"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6018f" class="javax.swing.JRadioButton" binding="bagaj1">
+        <constraints>
+          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="150 lei"/>
+        </properties>
+      </component>
+      <component id="96e59" class="javax.swing.JRadioButton" binding="bagaj3">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="300 lei"/>
+        </properties>
+      </component>
+      <component id="8af0d" class="javax.swing.JRadioButton" binding="zbor3">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="450 lei"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
